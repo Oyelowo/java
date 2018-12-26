@@ -2,6 +2,24 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - InterfacesDemo",
+            "request": "launch",
+            "mainClass": "InterfacesDemo"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - InerfacesDemo",
+            "request": "launch",
+            "mainClass": "InerfacesDemo"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - AbstractDemo3",
+            "request": "launch",
+            "mainClass": "AbstractDemo3"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - FinalKeyWordDemo",
             "request": "launch",
             "mainClass": "FinalKeyWordDemo"
