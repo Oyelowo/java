@@ -8,7 +8,7 @@ interface Abc {
 
 class Implimentor implements Abc {
     public void show() {
-        System.out.print(obj);
+        System.out.print("implemnted");
     }
     
 }

@@ -2,6 +2,18 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - AnonymousClass",
+            "request": "launch",
+            "mainClass": "AnonymousClass"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - InterfacesDemo2",
+            "request": "launch",
+            "mainClass": "InterfacesDemo2"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - InterfacesDemo",
             "request": "launch",
             "mainClass": "InterfacesDemo"
