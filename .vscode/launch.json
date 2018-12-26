@@ -2,6 +2,18 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - innerClassDemo",
+            "request": "launch",
+            "mainClass": "innerClassDemo"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - StaticExmp",
+            "request": "launch",
+            "mainClass": "StaticExmp"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - ObjectDemo",
             "request": "launch",
             "mainClass": "ObjectDemo"
