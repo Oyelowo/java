@@ -2,6 +2,18 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - SuperDemo",
+            "request": "launch",
+            "mainClass": "SuperDemo"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - InheritanceDemo",
+            "request": "launch",
+            "mainClass": "InheritanceDemo"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - VaragsDemo",
             "request": "launch",
             "mainClass": "VaragsDemo"
