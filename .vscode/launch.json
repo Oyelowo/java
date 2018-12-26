@@ -2,6 +2,12 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - VaragsDemo",
+            "request": "launch",
+            "mainClass": "VaragsDemo"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - Array2D",
             "request": "launch",
             "mainClass": "Array2D"
