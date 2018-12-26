@@ -2,6 +2,18 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - Array2D",
+            "request": "launch",
+            "mainClass": "Array2D"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ArrayDemo",
+            "request": "launch",
+            "mainClass": "ArrayDemo"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - innerClassDemo",
             "request": "launch",
             "mainClass": "innerClassDemo"
