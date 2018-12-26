@@ -2,6 +2,18 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - SecondCode",
+            "request": "launch",
+            "mainClass": "SecondCode"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - FirstCode",
+            "request": "launch",
+            "mainClass": "FirstCode"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - Cat",
             "request": "launch",
             "cwd": "${workspaceFolder}",
