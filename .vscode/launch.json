@@ -2,6 +2,12 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - FinalKeyWordDemo",
+            "request": "launch",
+            "mainClass": "FinalKeyWordDemo"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - AbstractDemo2",
             "request": "launch",
             "mainClass": "AbstractDemo2"
