@@ -2,6 +2,12 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - InterfaceDefaultMethod",
+            "request": "launch",
+            "mainClass": "InterfaceDefaultMethod"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - InterfaceFunctionalLamda",
             "request": "launch",
             "mainClass": "InterfaceFunctionalLamda"

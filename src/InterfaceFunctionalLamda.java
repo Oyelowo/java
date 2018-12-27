@@ -2,7 +2,7 @@
 
 // 1. Normal interface: has more than one method.
 
-// 2. Single abstract method/FUNCTIONAL(IN JAVA 8) interface: has one method. in java 8, this is called A FUNCTIONAL INTERFACE.
+// 2. Single abstract method/FUNCTIONAL(IN JAVA 8) interface: has only one abstract method. in java 8, this is called A FUNCTIONAL INTERFACE.
 // WTH FI, you can use functional interfaces which was adopted Scala.
 
 // 3. Marker interface: Does not have any method. e.g Serializable
@@ -12,6 +12,7 @@
 
 @FunctionalInterface
 interface Abc2 {
+    // This is public abstract by default
     void show();
 }
 
