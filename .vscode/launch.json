@@ -2,6 +2,12 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - InterfaceWithStaticMethod",
+            "request": "launch",
+            "mainClass": "InterfaceWithStaticMethod"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - InterfaceDemoMultiInheritance",
             "request": "launch",
             "mainClass": "InterfaceDemoMultiInheritance"
