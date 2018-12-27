@@ -2,6 +2,12 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - InterfaceDemoMultiInheritance",
+            "request": "launch",
+            "mainClass": "InterfaceDemoMultiInheritance"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - InterfaceDefaultMethod",
             "request": "launch",
             "mainClass": "InterfaceDefaultMethod"
