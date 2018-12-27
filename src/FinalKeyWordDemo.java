@@ -13,7 +13,7 @@ class AB {
     // This below is a constant and cannot be overwritten.
     private final int finalNumber = 45;
 
-    // The below method cannot be overwritte in subclasses.
+    // The below method cannot be overwritten in subclasses.
     public final void show() {
         System.out.println("in show");
     }

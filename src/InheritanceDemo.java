@@ -8,7 +8,6 @@ class Calculator {
     
 }
 
-
 class CalcAdv extends Calculator {
 
     public int sub(int i, int j) {

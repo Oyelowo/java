@@ -4,7 +4,7 @@ class A {
     }
 
     public A(int i) {
-        System.out.println("In A int");
+        System.out.println("In A int " + i);
     }
     
 }
@@ -31,6 +31,6 @@ public class SuperDemo {
 
     public static void main(String[] args) {
         B obj1 = new B();
-        
+        B obj2 = new B(65);
     }
 }

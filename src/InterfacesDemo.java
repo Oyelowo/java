@@ -13,12 +13,13 @@
 interface Writer {
     // public abstract void write();
     // above same as below. The method would be public abstract by defualt.
+    String NAME = "GOOD WRITER";
     void write();
 }
 
 class Pen implements Writer {
     public void write() {
-        System.out.println("Im a pen");
+        System.out.println("Im a pen from a " + Writer.NAME);
     }
 
 }
@@ -52,7 +53,7 @@ public class InterfacesDemo {
         /* Writer wontWork = new Writer();
         k.doSomething(wontWork); */
 
-
+        k.doSomething(p);
         k.doSomething(pc);
         k.doSomething(pcAlsoWorks);
     }
