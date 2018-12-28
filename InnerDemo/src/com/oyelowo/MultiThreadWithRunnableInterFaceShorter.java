@@ -1,6 +1,10 @@
 package com.oyelowo;
 
 
+import java.util.ArrayList;
+
+// Thread safe implementation using anonymous classes
+
 public class MultiThreadWithRunnableInterFaceShorter {
     public static void main(String[] args) throws Exception {
         Thread t1 = new Thread(() -> {
@@ -9,8 +13,7 @@ public class MultiThreadWithRunnableInterFaceShorter {
                 try {
                     Thread.sleep(1000);
                 } catch (Exception e) {
-                }
-                ;
+                };
             }
         }, "First Thread");
         Thread t2 = new Thread(() -> {
@@ -19,8 +22,7 @@ public class MultiThreadWithRunnableInterFaceShorter {
                 try {
                     Thread.sleep(1000);
                 } catch (Exception e) {
-                }
-                ;
+                };
             }
         }, "Second Thread");
 

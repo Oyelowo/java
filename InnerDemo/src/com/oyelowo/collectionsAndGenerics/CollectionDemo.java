@@ -1,4 +1,4 @@
-package com.oyelowo;
+package com.oyelowo.collectionsAndGenerics;
 
 import java.util.ArrayList;
 import java.util.Collection;
@@ -21,7 +21,7 @@ public class CollectionDemo {
        /* System.out.println(iterataleValues.next());
         System.out.println(iterataleValues.next());
         System.out.println(iterataleValues.next());*/
-       
+
         //System.out.println(iterataleValues.next()); // This raises an error becuase it already exhausted the collection ArrayList
 
         // Therefore, it is better to check e.g with a while loop.
