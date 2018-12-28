@@ -1,4 +1,4 @@
-package com.oyelowo;
+package com.oyelowo.MultiThreading;
 
 class Hi extends Thread{
     public void run(){

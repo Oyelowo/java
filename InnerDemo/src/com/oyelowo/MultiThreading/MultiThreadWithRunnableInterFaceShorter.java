@@ -1,4 +1,4 @@
-package com.oyelowo;
+package com.oyelowo.MultiThreading;
 
 
 import java.util.ArrayList;
