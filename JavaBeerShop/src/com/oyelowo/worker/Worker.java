@@ -16,11 +16,14 @@ public abstract class Worker{
     /*public Worker(Double balance){
         this.balance = balance;
     }*/
+    
+    // Alternative
 
     public Worker(Double balance){
         this("", "",null, balance);
         System.out.println("object with only balance instantiated");
     };
+
     public Worker(String name, String team, Integer payLevel, Double balance) {
         this.name = name;
         this.team = team;
