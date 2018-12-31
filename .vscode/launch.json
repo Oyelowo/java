@@ -2,6 +2,12 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - Synchronization",
+            "request": "launch",
+            "mainClass": "com.oyelowo.MultiThreading.Synchronization"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - InterfaceWithStaticMethod",
             "request": "launch",
             "mainClass": "InterfaceWithStaticMethod"

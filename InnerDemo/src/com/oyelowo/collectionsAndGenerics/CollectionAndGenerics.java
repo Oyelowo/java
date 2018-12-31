@@ -32,6 +32,8 @@ public class CollectionAndGenerics {
         // This gives out elements in sorted manner. e.g 4,7,3,6,1 will yield 1,3,4,6,7
         Set<Number> values3 = new TreeSet<>();
 
+        Collection jjjj = Arrays.asList();
+
         values.add(2f);
         values.add(Float.parseFloat("545.8f"));
         values.add(5);
